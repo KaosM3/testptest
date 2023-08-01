@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/gif" href="fire.gif"/>
+    <title>Hello World</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: black;
+            margin: 0;
+}
+
+        .yazı {
+            font-size: 68px;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: red;
+}
+
+        .yazılar {
+            text-shadow: 0 0 22px red;
+            animation: pulse 1s infinite;
+}
+
+    @keyframes pulse {
+        0% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(1.1);
+        }
+        100% {
+            transform: scale(1);
+        }
+}
+    </style>
+</head>
+<body>
+    <div class="yazı">
+        May <span class="yazılar">t</span>he F<span class="yazılar">o</span>rce be w<span class="yazılar">i</span>th y<span class="yazılar">ou</span>
+    </div>
+</body>
+</html>
